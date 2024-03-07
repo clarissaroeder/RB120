@@ -1,0 +1,29 @@
+welcome: "=> WELCOME TO ROCK, PAPER, SCISSORS, LIZARD, SPOCK!"
+div: "=> ================================================"
+name_prompt: "=> What's your name? "
+how_to_play: |
+  => Choose your move:  rock(r)   paper(p)   scissors(s)   lizard(l)   spock(v)
+  => Open move log:     history (h)
+
+  => Type the word or its abbreviation: 
+invalid_name: "=> Please enter a valid name."
+invalid_choice: "=> Oops, that's not a valid choice. Try again!"
+
+choose_points: "=> How many points would you like to play for (1-10)?: "
+choose_opponent: |
+  
+  => Please choose your opponent: R2D2, Hal, Chappie, Sonny, or Number 5.
+  => To choose, type their name or hit Enter to randomly assign: 
+countdown: "=> 3, 2, 1, shoot!"
+choice: "=> %{name} chose %{move}."
+round_result: "=> %{winner} %{beats} %{loser}. %{name} won!"
+tie: "=> It's a tie!"
+exit_history: "=> Press Enter to exit move history. "
+keep_playing: "=> Get ready for the next round... "
+congrats: "=> Congratulations! You won the match."
+sorry: "=> Too bad, %{name} won the match this time!"
+again: |
+  => To see the move log, enter history (h).
+
+  => Would you like to play again? (y): 
+bye: "=> Thank you for playing rock, paper, scissors, lizard, spock. Live long and prosper!"

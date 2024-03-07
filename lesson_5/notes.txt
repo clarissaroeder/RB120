@@ -1,0 +1,7 @@
+TODO
+- Improve the timing when it's the dealers turn: 
+  - dealer hits ... 
+  - dealer stays... 
+
+- Make all "You chose/Dealer chose" statements flush?
+- Sleep after blackjack and 21 message??

@@ -1,0 +1,35 @@
+-- Bonus Features --
+1. Keep Score
+  - score as a class or a state of the player? 
+    -> state of the player. The player *has* a score
+  - scoreboard as a separate class?
+    - display scoreboard method rather than scoreboard class?
+  - determine winner method?
+  - update scores method?
+  - change game flow logic to only ask for play-again if either player has 10 points
+
+2. Lizard, Spock additions
+  - Winning conditions hash
+
+4. Move history
+  - Make option to display move history throughout the game
+  - Make a table like presentation?
+  - Track the games -> Don't reset after a game
+    - Separate games with a horizontal line
+    - Is the move_log reset somewhere? How do I keep track of games?
+  - Display the move history at the end of a match
+
+5. Bot personalities
+  - Pick your opponent in the beginning, or choose random
+  - Modify the choose method for computer class
+
+
+Other:
+
+
+
+  WINNING_CONDITIONS = { 'scissors' => ['paper', 'lizard'], # REDUNDANT? BEATS
+                         'paper' => ['rock', 'spock'],
+                         'rock' => ['lizard', 'scissors'],
+                         'lizard' => ['spock', 'paper'],
+                         'spock' => ['scissors', 'rock'] }
